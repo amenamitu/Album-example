@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    /* padding: 0;
+    margin: 0; */
+}
+img{
+   width: 90%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.header{
+    background-color: black;
+    margin-bottom: 80px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    display: flex;
+}
+.icon i{
+   font-size: 25px;
+  color: white;
+  margin-top: 3px;
+}
+.icon h1{
+    color: white;
+    margin-left:10px ;
+    font-family: 'Poppins', sans-serif;
+}
+.icon-bar{
+    color: white;
+    opacity: 0.5;
+    border: 1px solid white;
+    margin: 5px 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.icon-bar i{
+    font-size: 30px;
+}
+.banner{
+     text-align: center; 
+     width: 65%;
+     margin: 0 auto;
+} 
+.banner h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.banner p{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.banner div a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.button-1{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0.6;
+}
+.button-2{
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0.6;
+}
+.banner a:hover{
+    opacity: 1;
+}
+.para{
+   background-color: rgb(238, 243, 245);
+   width: 100%;
+    padding-top: 10px; 
+    margin-top: 100px;
+}
+.showcase{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+    margin-top: 40px;
+}
+.card-container{
+    width: 33.33%;
+}
+.card{
+    padding: 0 30px;
+    margin-bottom: 25px;
+   
+}
+.card-identity{
+    background-color: white;
+    padding: 20px;
+   margin-right: 39px;
+}
+.button{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px; 
+}
+.button-3{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+}
+.button-4{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 60px;
+     display: flex;
+    justify-content:space-between;
+    align-items: center; 
+}
+footer a{
+    color: rgb(69, 69, 236);
+}
+footer a:hover{
+    color:darkblue;
+    text-decoration: underline;
+}
+
