@@ -92,7 +92,7 @@ nav{
 .para{
    background-color: rgb(238, 243, 245);
    width: 100%;
-    padding-top: 10px; 
+   padding-top: 10px; 
     margin-top: 100px;
 }
 .showcase{
@@ -100,6 +100,7 @@ nav{
     flex-wrap: wrap;
     justify-content:space-between ;
     margin-top: 40px;
+    margin-left: 39px;
 }
 .card-container{
     width: 33.33%;
@@ -107,12 +108,11 @@ nav{
 .card{
     padding: 0 30px;
     margin-bottom: 25px;
-   
 }
 .card-identity{
     background-color: white;
     padding: 20px;
-   margin-right: 39px;
+    margin-right: 39px;
 }
 .button{
     display: flex;
@@ -120,17 +120,27 @@ nav{
     margin-bottom: 20px; 
 }
 .button-3{
-    border: 1px solid black;
-    padding: 10px;
+    border: 1px solid gray;
+    padding:7px 10px;
     border-radius: 5px 0px 0px 5px;
+    color: gray;
 }
 .button-4{
-    border: 1px solid black;
-    padding: 10px;
+    border: 1px solid gray;
+    padding: 7px 10px;
     border-radius: 0px 5px 5px 0px;
+    color: gray;
 }
-
-
+.button-3:hover{
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+}
+.button-4:hover{
+    background-color: black;
+    color: white; 
+    opacity: 0.6;
+}
 .flex{
     display: flex;
     justify-content: space-between;
